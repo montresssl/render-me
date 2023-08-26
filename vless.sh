@@ -18,16 +18,7 @@ yellow() {
 }
 
 clear
-echo "#############################################################"
-echo -e "#              ${RED} Deepnote v2ray 一键安装脚本${PLAIN}                 #"
-echo -e "# ${GREEN}作者${PLAIN}: MisakaNo の 小破站                                  #"
-echo -e "# ${GREEN}博客${PLAIN}: https://blog.misaka.rest                            #"
-echo -e "# ${GREEN}GitHub 项目${PLAIN}: https://github.com/Misaka-blog               #"
-echo -e "# ${GREEN}Telegram 频道${PLAIN}: https://t.me/misakablogchannel             #"
-echo -e "# ${GREEN}Telegram 群组${PLAIN}: https://t.me/misakanoxpz                   #"
-echo -e "# ${GREEN}YouTube 频道${PLAIN}: https://www.youtube.com/@misaka-blog        #"
-echo "#############################################################"
-echo ""
+
 
 
 rm -f web config.json
@@ -89,9 +80,6 @@ cat << EOF > config.json
 EOF
 nohup ./web run &>/dev/null & ls
 #nohup relay connect --name modsbots & ls
-green "Deepnote v2ray 已安装完成！"
-yellow "请认真阅读项目博客说明文档，配置出站链接！"
-yellow "别忘记给项目点一个免费的Star！"
-echo ""
-yellow "更多项目，请关注：小御坂的破站"
+green "MODSBOTS IS YOUR PAPA"
+
 
