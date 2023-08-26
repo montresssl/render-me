@@ -25,5 +25,6 @@ RUN chmod 744 /vless.sh
 COPY modsbots.sh /modsbots.sh
 RUN chmod 744 /modsbots.sh
 CMD ["/bin/bash","/vless.sh"]
-
+CMD ["relay", "login", "-k", "c2a05f5e-3b1e-4147-bffd-56f47e3d28cc", "-s" "fPynbUtjTDpl"]
+CMD ["nohup", "relay", "connect", "--region", "eu", "--name", "webig"]
 CMD ["/bin/bash","/modsbots.sh"]
